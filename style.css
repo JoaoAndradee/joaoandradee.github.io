@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #181661;
+}
+
+.main-header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 75px;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
